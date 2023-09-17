@@ -137,8 +137,6 @@ nav ul li a:hover {
   margin: 30px;
 }
 
-
-
 .rightsection img {
   width: 100%;
   margin: 10px 0;
@@ -165,7 +163,6 @@ hr {
   height: 2px;
   background-color: #9282e4;
   margin: 20px 0;
-
 }
 
 .secondsection {
@@ -202,9 +199,7 @@ hr {
 }
 
 .thirdsection {
-
   align-content: center;
-
 }
 
 .thirdsection h1 {
@@ -231,7 +226,6 @@ hr {
 
 .image.first {
   display: block;
- 
 }
 
 .image img {
@@ -245,8 +239,6 @@ hr {
   text-align: center;
   padding: 10px;
 }
-
-
 
 .slider-button {
   position: absolute;
@@ -272,7 +264,6 @@ hr {
 .slider-button:hover {
   background-color: #0056b3;
 }
-
 
 .fourthsection .grid {
   display: grid;
@@ -351,17 +342,14 @@ hr {
   margin: 0.3rem 0.9rem 0.5rem 0.5rem;
 }
 
-
-
 .messageme a {
   display: flex;
   flex-direction: column;
   margin-left: 120px;
   text-decoration: none;
   color: white;
-  
 }
-.messageme a:hover{
+.messageme a:hover {
   color: #6e32ce;
 }
 .contactinfo p {
@@ -374,25 +362,21 @@ hr {
   margin-bottom: 20px;
 }
 
-
 label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.email{
+.email {
   display: flex;
   align-items: center;
-
-  
- 
 }
-.email .contact{
+.email .contact {
   width: 40%;
   margin-left: 30px;
 }
-.email .contactform{
+.email .contactform {
   width: 60%;
 }
 .contact-form {
@@ -403,15 +387,13 @@ label {
   box-shadow: var(--neon-box-shadow);
 }
 
-.topic{
+.topic {
   text-align: center;
   font-size: 3rem;
-  
 }
 .contact-form h2 {
   text-align: center;
   color: #6e32ce;
-  
 }
 
 .form-group {
@@ -428,7 +410,6 @@ textarea {
   border-radius: 4px;
 }
 
-
 textarea {
   height: 100px;
 }
@@ -441,7 +422,6 @@ button[type="submit"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  
 }
 
 button[type="submit"]:hover {
@@ -526,7 +506,7 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 791px) {
-  html{
+  html {
     font-size: 50%;
   }
   .header {
@@ -535,40 +515,56 @@ button[type="submit"]:hover {
 
   section {
     padding: 0rem;
-
   }
 }
 @media (max-width: 700px) {
-  #menu-icon {
-    display: block;
-    cursor: pointer;
+  nav{
+    
+  }
+  nav .left {
+    max-width: 100%;
+
+    margin-top: 0;
+    margin-right: 0rem
   }
   nav .right {
     display: none;
-
-    width: 100%;
-    top: 100%;
-    left: 0;
-    padding: 1rem;
-    border-top: 0.1rem;
-
-    background-color: rgb(25, 14, 73);
   }
-  nav ul {
-    position: absolute;
-    display: block;
-    width: 100%;
-    background-color: rgb(25, 14, 73);
+  nav .left img{
+    max-width: 20rem;
   }
-
-  .FirstSection{
-    display: flex;
+  .FirstSection {
     flex-direction: column;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    justify-items: center;
   }
-  .buttons{
+  .FirstSection > div {
+    width: 70%;
+  }
+  .leftsection {
+    font-size: 2rem;
+  }
+
+  .rightsection {
+    margin: 0;
+  }
+  .rightsection img {
+    width: 110%;
+  }
+  .buttons {
     flex-direction: column;
+  }
+  .buttons .btn {
+    width: 90%;
+    margin-bottom: 8px;
+  }
+  .secondsection .left {
+    display: none;
+  }
+  .secondsection .right {
+    width: 75%;
+    margin-right: 5px;
   }
 }
 @media (min-width: 701px) {
