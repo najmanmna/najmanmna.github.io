@@ -526,12 +526,16 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 791px) {
+  html{
+    font-size: 50%;
+  }
   .header {
     padding: 2rem 3%;
   }
 
   section {
-    padding: 1rem;
+    padding: 0rem;
+
   }
 }
 @media (max-width: 700px) {
@@ -555,6 +559,16 @@ button[type="submit"]:hover {
     display: block;
     width: 100%;
     background-color: rgb(25, 14, 73);
+  }
+
+  .FirstSection{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .buttons{
+    flex-direction: column;
   }
 }
 @media (min-width: 701px) {
