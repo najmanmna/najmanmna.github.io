@@ -518,9 +518,7 @@ button[type="submit"]:hover {
   }
 }
 @media (max-width: 700px) {
-  nav{
-    
-  }
+ 
   nav .left {
     max-width: 100%;
 
@@ -543,9 +541,13 @@ button[type="submit"]:hover {
     width: 70%;
   }
   .leftsection {
-    font-size: 2rem;
+    font-size: 3rem;
+    margin: 30px 0 0 0;
   }
+  .leftsection p{
+    font-size: 2rem;
 
+  }
   .rightsection {
     margin: 0;
   }
@@ -553,22 +555,70 @@ button[type="submit"]:hover {
     width: 110%;
   }
   .buttons {
-    flex-direction: column;
+    gap: 50px;
+   
   }
   .buttons .btn {
-    width: 90%;
+    width: 100px;
     margin-bottom: 8px;
   }
   .secondsection .left {
     display: none;
   }
   .secondsection .right {
-    width: 75%;
+    width: 60%;
     margin-right: 5px;
   }
-}
-@media (min-width: 701px) {
-  #menu-icon {
-    display: none; /* Hide the menu icon on larger screens */
+
+  .slider-button{
+    padding: 0%;
   }
+  .fourthsection .grid {
+  
+    grid-template-columns: repeat(1, 25rem);
+
+  
 }
+
+.email{
+  flex-direction: column-reverse;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+
+}
+button[type="submit"] {
+
+ 
+  font-weight: 500;
+  padding: 5px 10px;}
+
+  input[type="text"], input[type="email"], textarea {
+    width: 88%;
+  }
+  .email .contact{
+    display: none;
+  }
+  .connect {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 10px;
+   }
+  .icon-container {
+    width: 30px;
+    height: 30px;}
+
+  footer{
+    font-size: smaller;
+  }
+  .rights-reserved {
+ 
+    font-size: 10px;
+    }
+
+
+
+
