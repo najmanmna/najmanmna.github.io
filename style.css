@@ -563,28 +563,38 @@ button[type="submit"]:hover {
     display: none;
   }
   .secondsection .right {
-    width: 60%;
+    width: 80%;
     margin-right: 5px;
   }
-  .image img {
-    width: 101%;
+  .secondsection p {
+    font-size: 1.8rem;
+  }
+
+  .image-container {
+    margin: 0px;
+
+    width: 100%;
+  }
+  .image {
+    margin: 0 0 0 0;
+    width: 100%;
   }
   .slider-button {
     padding: 0%;
   }
   .fourthsection .grid {
-    grid-template-columns: repeat(1, 35rem);
+    grid-template-columns: repeat(1, 40rem);
   }
   .fourthsection .grid .block {
- 
-    height: 20rem;}
+    height: 20rem;
+  }
 
   .email {
     flex-direction: column-reverse;
   }
   .email .contactform {
-    width: 70%;
-}
+    width: 80%;
+  }
   .contact-form {
     max-width: 700px;
     margin: 40px auto;
