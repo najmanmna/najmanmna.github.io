@@ -518,17 +518,16 @@ button[type="submit"]:hover {
   }
 }
 @media (max-width: 700px) {
- 
   nav .left {
     max-width: 100%;
 
     margin-top: 0;
-    margin-right: 0rem
+    margin-right: 0rem;
   }
   nav .right {
     display: none;
   }
-  nav .left img{
+  nav .left img {
     max-width: 20rem;
   }
   .FirstSection {
@@ -544,9 +543,8 @@ button[type="submit"]:hover {
     font-size: 3rem;
     margin: 30px 0 0 0;
   }
-  .leftsection p{
+  .leftsection p {
     font-size: 2rem;
-
   }
   .rightsection {
     margin: 0;
@@ -556,7 +554,6 @@ button[type="submit"]:hover {
   }
   .buttons {
     gap: 50px;
-   
   }
   .buttons .btn {
     width: 100px;
@@ -570,55 +567,49 @@ button[type="submit"]:hover {
     margin-right: 5px;
   }
 
-  .slider-button{
+  .slider-button {
     padding: 0%;
   }
   .fourthsection .grid {
-  
     grid-template-columns: repeat(1, 25rem);
+  }
 
-  
-}
+  .email {
+    flex-direction: column-reverse;
+  }
 
-.email{
-  flex-direction: column-reverse;
-}
+  .contact-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  button[type="submit"] {
+    font-weight: 500;
+    padding: 5px 10px;
+  }
 
-.contact-form {
-  max-width: 400px;
-  margin: 40px auto;
-  padding: 20px;
-
-}
-button[type="submit"] {
-
- 
-  font-weight: 500;
-  padding: 5px 10px;}
-
-  input[type="text"], input[type="email"], textarea {
+  input[type="text"],
+  input[type="email"],
+  textarea {
     width: 88%;
   }
-  .email .contact{
+  .email .contact {
     display: none;
   }
   .connect {
     margin-top: 0px;
     margin-bottom: 15px;
     font-size: 10px;
-   }
+  }
   .icon-container {
     width: 30px;
-    height: 30px;}
+    height: 30px;
+  }
 
-  footer{
+  footer {
     font-size: smaller;
   }
   .rights-reserved {
- 
     font-size: 10px;
-    }
-
-
-
-
+  }
+}
