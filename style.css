@@ -566,25 +566,33 @@ button[type="submit"]:hover {
     width: 60%;
     margin-right: 5px;
   }
-
+  .image img {
+    width: 101%;
+  }
   .slider-button {
     padding: 0%;
   }
   .fourthsection .grid {
-    grid-template-columns: repeat(1, 25rem);
+    grid-template-columns: repeat(1, 35rem);
   }
+  .fourthsection .grid .block {
+ 
+    height: 20rem;}
 
   .email {
     flex-direction: column-reverse;
   }
-
+  .email .contactform {
+    width: 70%;
+}
   .contact-form {
-    max-width: 400px;
+    max-width: 700px;
     margin: 40px auto;
     padding: 20px;
   }
   button[type="submit"] {
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 10px;
     padding: 5px 10px;
   }
 
