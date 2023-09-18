@@ -547,7 +547,7 @@ button[type="submit"]:hover {
     font-size: 2rem;
   }
   .rightsection {
-    margin: 0;
+    margin: 0 5;
   }
   .rightsection img {
     width: 110%;
@@ -570,6 +570,14 @@ button[type="submit"]:hover {
     font-size: 1.8rem;
   }
 
+  .thirdsection h1 {
+    margin: 0;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
   .image-container {
     margin: 0px;
 
@@ -582,6 +590,14 @@ button[type="submit"]:hover {
   .slider-button {
     padding: 0%;
   }
+  .fourthsection h1 {
+    margin: 0;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
   .fourthsection .grid {
     grid-template-columns: repeat(1, 40rem);
   }
@@ -629,5 +645,8 @@ button[type="submit"]:hover {
   }
   .rights-reserved {
     font-size: 10px;
+  }
+  hr {
+    display: none;
   }
 }
